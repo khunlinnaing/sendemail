@@ -1,0 +1,10 @@
+POST http://localhost:8000
+Content-Type: application/json
+
+{
+    "email":"khunlinnaing90@gmail.com",
+    "subject":"testing email",
+    "message":"What about you?"
+}
+###
+GET http://localhost:8000
